@@ -29,11 +29,12 @@ public class EngineeringCalculator extends BasicCalculator {
 
     public int toQube(int number) {
         int square = super.toSquare(number);
-        return number * square;
+        return (number * square);
     }
 
     @Override
-    public int toSquare(int a) {
-        return super.toSquare(a) + 5;
+    public int toSquare(int number) {
+        System.out.println("Will call super.toSquare");
+        return super.toSquare(number);
     }
 }

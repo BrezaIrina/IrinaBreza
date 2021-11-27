@@ -12,7 +12,7 @@ public abstract class BasicCalculator {
     public abstract int division(int a, int b);
 
     public int toSquare (int a) {
-        return a * a;
+        return (a * a);
     }
 
     public static void main(String[] args) {
@@ -26,6 +26,7 @@ public abstract class BasicCalculator {
         BasicCalculator[] allCalculators = {engineeringCalculator, brokenCalculator};
         BasicCalculator.overrideDemo(allCalculators, a, b); // виклик статичної фун=ї на типі
         BasicCalculator.overloadDemo(engineeringCalculator, a, b, c);
+        BasicCalculator.superDemo(engineeringCalculator, c);
 
     }
 
@@ -63,5 +64,17 @@ public abstract class BasicCalculator {
             int division = currentCalculator.division(a, b);
             System.out.println("division" + " " + division);
         }
+    }
+
+    public static void superDemo(EngineeringCalculator calculator, int number) {
+        System.out.println("");
+        System.out.println("super demo results");
+        System.out.println("Number " + number);
+
+        int superSquareResult = calculator.toSquare(number);
+        System.out.println("square result is " + superSquareResult);
+
+        int superQubeResult = calculator.toQube(number);
+        System.out.println("qube result is " + superQubeResult);
     }
 }
