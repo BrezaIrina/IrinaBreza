@@ -6,6 +6,7 @@ public class Card {
     String suit;
     static String[] allRanks = {"Hearts", "Clubs", "Diamonds", "Spades"};
     static String[] allSuits = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
+    static String[] emptyArray = {};
 
     static Card queenOfHearts = new Card("Queen", "Heart");
 

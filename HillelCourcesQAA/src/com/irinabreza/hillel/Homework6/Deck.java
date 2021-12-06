@@ -9,7 +9,7 @@ public class Deck {
     private Card[] shuffledDeck; ///54 cards
     private int indexOfCardToDraw = 0;
 
-    Deck(String[] allRanks, String[] allSuits) {
+    Deck(String[] allRanks, String[] allSuits) throws PokerGameException {
 
         int cardsCount = allRanks.length * allSuits.length;
         Card[] unshuffledDeck = new Card[cardsCount];
@@ -26,7 +26,10 @@ public class Deck {
         Deck.shuffleArray(shuffledDeck);
     }
 
-    static void shuffleArray(Card[] array) {
+    static void shuffleArray(Card[] array) throws PokerGameException {
+        if (array.length == 0) {
+            throw PokerGameException.deckEmpty;
+        }
         Random random = new Random();
         for (int index = array.length - 1; index > 0; index--) {
             int newIndex = random.nextInt(index + 1);
@@ -36,13 +39,13 @@ public class Deck {
         }
     }
 
-    public Card getRandomCard() {
+    public Card getRandomCard() throws PokerGameException {
         if (indexOfCardToDraw < shuffledDeck.length) {
             Card requiredCard = shuffledDeck[indexOfCardToDraw];
             indexOfCardToDraw ++;
             return requiredCard;
         } else {
-            return null;
+            throw PokerGameException.allCardsAreDrawn;
         }
     }
 }

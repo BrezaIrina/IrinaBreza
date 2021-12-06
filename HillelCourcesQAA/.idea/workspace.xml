@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="" />
+    <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/PokerGameException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework6/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework6/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework6/PokerGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework6/PokerGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/PokerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/PokerGame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +107,7 @@
       <recent name="$PROJECT_DIR$/src/com/irinabreza/hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.PokerGame">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.Homework7.BasicCalculator" />
       <module name="HillelCourcesQAA" />
@@ -139,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson6 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.lesson6.Lesson6" />
-      <module name="HillelCourcesQAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.irinabreza.hillel.lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.Homework8.Main" />
       <module name="HillelCourcesQAA" />
@@ -165,20 +160,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokerGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.Homework6.PokerGame" />
+      <module name="HillelCourcesQAA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.irinabreza.hillel.Homework6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Lesson6 (1)" />
       <item itemvalue="Application.EngineeringCalculator" />
       <item itemvalue="Application.BrokenCalculator" />
       <item itemvalue="Application.BasicCalculator" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.PokerGame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PokerGame" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.BrokenCalculator" />
         <item itemvalue="Application.EngineeringCalculator" />
-        <item itemvalue="Application.Lesson6 (1)" />
       </list>
     </recent_temporary>
   </component>
