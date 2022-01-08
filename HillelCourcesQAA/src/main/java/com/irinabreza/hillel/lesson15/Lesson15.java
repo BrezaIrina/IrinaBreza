@@ -20,6 +20,7 @@ public class Lesson15 {
 //        predicate.test("java automation");
 
         Consumer<String> consumer = str -> System.out.println(str);
+        //Consumer<String> consumer = object::printLn;
 
         consumer.accept("some test");
 

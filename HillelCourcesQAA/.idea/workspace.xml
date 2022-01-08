@@ -5,102 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework9/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework9/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework9/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson13/Lesson13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson14/CompareEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson14/IteratorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson14/Lesson14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson14/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/Iface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/Lesson15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/StreamEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson16/FakeDataEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson17/ListTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson17/TaskOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson17/TaskThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson17/TaskTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/locators/LocatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngTest/BeforeAfterActions1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngTest/BeforeAfterActions2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngTest/MyFirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngTest/MySecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/catalog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/homeWork11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testNg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework11/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework11/FirstLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework11/WelcomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/mvnTest/MvnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/testngTest/BeforeAfterActions1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/testngTest/BeforeAfterActions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/testngTest/MyFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/testngTest/MySecondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/testngTest/UtilActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HillelCourcesQAA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HillelCourcesQAA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework2/Homework2A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework2/Homework2B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework2/Homework2C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework3/Homework3A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework6/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework6/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework6/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework6/PokerGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework7/BasicCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework7/BrokenCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework7/EngineeringCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework8/ColorRepresentation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework8/Level$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework8/Level.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework8/LogMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework8/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Homework8/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Lesson3/Lesson3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HillelCourcesQAA/com/irinabreza/hillel/Lesson3/Lesson5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework2/Homework2A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework2/Homework2A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework2/Homework2B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework2/Homework2B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework2/Homework2C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework2/Homework2C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework3/Homework3A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework3/Homework3A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework6/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework6/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework6/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/PokerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework6/PokerGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework6/PokerGameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework6/PokerGameException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework7/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework7/BasicCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework7/BrokenCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework7/BrokenCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework7/EngineeringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework7/EngineeringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework8/ColorRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework8/ColorRepresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework8/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework8/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework8/LogMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework8/LogMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework8/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework8/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Homework8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Homework8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Lesson3/Lesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Lesson3/Lesson3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Lesson3/Lesson5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Lesson3/Lesson5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/lesson10/ConfigClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson10/ConfigClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/irinabreza/hillel/lesson10/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson10/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/Iface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/Iface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/Lesson15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/Lesson15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/StreamEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/lesson15/StreamEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/locators/LocatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngTest/BeforeAfterActions1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngTest/BeforeAfterActions2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngTest/MyFirstTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngTest/MySecondTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/lesson15/Lesson15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/lesson15/Lesson15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/lesson15/StreamEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/lesson15/StreamEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hillel.test.mvnTest.MvnTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hillel.test.mvnTest.MvnTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-hillel.test.mvnTest.MvnTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testngTest/BeforeAfterActions1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testngTest/BeforeAfterActions2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testngTest/MyFirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testngTest/MySecondTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +77,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="216DmeSLmkR5BGMDcUvdcmpWv13" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -194,83 +148,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/irinabreza/hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
-    <configuration name="CompareEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.lesson14.CompareEx" />
-      <module name="HillelCourcesQAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.irinabreza.hillel.lesson14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homework2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.Homework2.Homework2A" />
-      <module name="HillelCourcesQAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.irinabreza.hillel.Homework2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.Homework9.Task1" />
-      <module name="HillelCourcesQAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.irinabreza.hillel.Homework9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.Homework9.Task2" />
-      <module name="HillelCourcesQAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.irinabreza.hillel.Homework9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.irinabreza.hillel.Homework9.Task3" />
-      <module name="HillelCourcesQAA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.irinabreza.hillel.Homework9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HillelCourcesQAA [clean,test...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/irina_breza/IrinaBreza/HillelCourcesQAA/src/main/resources/homeWork11.xml">
+    <configuration name="HillelCourcesQAA (1)" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -283,6 +175,7 @@
               <list>
                 <option value="clean" />
                 <option value="test" />
+                <option value="-Pdev" />
                 <option value="-DrunSiteUrl=http://runtime.site" />
               </list>
             </option>
@@ -297,45 +190,171 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="HillelCourcesQAA" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
+    <configuration name="CartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.Homework11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.Homework11" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.Homework11.CartTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.Homework11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.Homework11" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.Homework11.FirstLoginTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstLoginTest.validateLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.Homework11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.Homework11" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.Homework11.FirstLoginTest" />
+      <option name="METHOD_NAME" value="validateLogin" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/irina_breza/IrinaBreza/HillelCourcesQAA/src/main/resources/homeWork11.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/homeWork11.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/irina_breza/IrinaBreza/HillelCourcesQAA/src/main/resources/testNg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testNg.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Maven.HillelCourcesQAA" />
-      <item itemvalue="Maven.HillelCourcesQAA [clean,test...]" />
-      <item itemvalue="Application.CompareEx" />
-      <item itemvalue="Application.Task1" />
-      <item itemvalue="Application.Task2" />
-      <item itemvalue="Application.Task3" />
-      <item itemvalue="Application.Homework2A" />
+      <item itemvalue="Maven.HillelCourcesQAA (1)" />
+      <item itemvalue="TestNG./Users/irina_breza/IrinaBreza/HillelCourcesQAA/src/main/resources/testNg.xml" />
+      <item itemvalue="TestNG.FirstLoginTest" />
+      <item itemvalue="TestNG.FirstLoginTest.validateLogin" />
+      <item itemvalue="TestNG./Users/irina_breza/IrinaBreza/HillelCourcesQAA/src/main/resources/homeWork11.xml" />
+      <item itemvalue="TestNG.CartTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Homework2A" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.CompareEx" />
+        <item itemvalue="TestNG./Users/irina_breza/IrinaBreza/HillelCourcesQAA/src/main/resources/homeWork11.xml" />
+        <item itemvalue="TestNG.CartTest" />
+        <item itemvalue="TestNG.FirstLoginTest" />
+        <item itemvalue="TestNG./Users/irina_breza/IrinaBreza/HillelCourcesQAA/src/main/resources/testNg.xml" />
+        <item itemvalue="TestNG.FirstLoginTest.validateLogin" />
       </list>
     </recent_temporary>
   </component>

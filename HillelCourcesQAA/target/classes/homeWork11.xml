@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression suite" verbose="1" parallel="classes" thread-count="10">
+<test name="Homework11">
+    <parameter name="totalQty" value="8"/>
+    <classes>
+        <class name="ua.hillel.test.Homework11.FirstLoginTest"/>
+        <class name="ua.hillel.test.Homework11.WelcomeTest"/>
+        <class name="ua.hillel.test.Homework11.CartTest"/>
+    </classes>
+</test>
+</suite>
+
+
