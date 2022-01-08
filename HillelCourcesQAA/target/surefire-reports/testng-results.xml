@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-17T18:06:26 EET" name="Surefire suite" finished-at="2021-12-17T18:06:26 EET" duration-ms="69">
+  <suite started-at="2022-01-04T19:05:00 EET" name="Surefire suite" finished-at="2022-01-04T19:05:00 EET" duration-ms="46">
     <groups>
     </groups>
-    <test started-at="2021-12-17T18:06:26 EET" name="Surefire test" finished-at="2021-12-17T18:06:26 EET" duration-ms="69">
-      <class name="hillel.test.mvnTest.MvnTest">
-        <test-method signature="mbnTest()[pri:0, instance:hillel.test.mvnTest.MvnTest@42607a4f]" started-at="2021-12-17T18:06:26 EET" name="mbnTest" finished-at="2021-12-17T18:06:26 EET" duration-ms="8" status="PASS">
+    <test started-at="2022-01-04T19:05:00 EET" name="Surefire test" finished-at="2022-01-04T19:05:00 EET" duration-ms="46">
+      <class name="ua.hillel.test.mvnTest.MvnTest">
+        <test-method signature="mvnTest()[pri:0, instance:ua.hillel.test.mvnTest.MvnTest@42607a4f]" started-at="2022-01-04T19:05:00 EET" name="mvnTest" finished-at="2022-01-04T19:05:00 EET" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mbnTest -->
-      </class> <!-- hillel.test.mvnTest.MvnTest -->
+        </test-method> <!-- mvnTest -->
+      </class> <!-- ua.hillel.test.mvnTest.MvnTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

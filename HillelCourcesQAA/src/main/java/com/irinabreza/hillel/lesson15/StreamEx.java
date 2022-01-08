@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamEx {
     public static void main(String[] args) {
@@ -37,5 +38,15 @@ public class StreamEx {
         if(opt.isPresent()) {
             int i = opt.get();
         }
+
+
+
+        int[] array = new int[10];
+
+        for (int i : array) {
+            System.out.println(i);
+        }
+
+
     }
 }
