@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -15,6 +17,8 @@ import java.util.List;
 
 public class RozetkaTest {
     private WebDriver driver;
+    private WebDriverWait webDriverWait;
+
     @BeforeClass
     public void setUp() {
         WebDriverManager.chromedriver().setup();
@@ -25,6 +29,8 @@ public class RozetkaTest {
     @Test
     public void rozetkaTest() {
         driver.get("https://rozetka.com.ua/ua/");
+
+        webDriverWait = new WebDriverWait(driver, 5);
 
         driver.findElement(By.id("fat-menu")).click();
 
@@ -40,21 +46,11 @@ public class RozetkaTest {
 
         actions.moveToElement(item).click().perform();
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("aside.sidebar")));
 
         setFilter("Rozetka");
         setFilter("ASUS");
         setFilter("GeForce RTX 3090");
-
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
         WebElement cards = driver.findElement(By.cssSelector(".catalog-grid__cell:nth-of-type(1)"));
 
@@ -66,9 +62,6 @@ public class RozetkaTest {
             System.out.println(descItem.findElement(By.tagName("a")).getText());
         });
 
-//        JavascriptExecutor executor = (JavascriptExecutor) driver;            //Java script code to perform an action - click
-//        executor.executeScript("arguments[0].scrollInToView(true)", cards);
-//        executor.executeScript("arguments[0].click()", cards);
     }
 
     @AfterClass
@@ -78,11 +71,7 @@ public class RozetkaTest {
 
     private void setFilter(String id) {
         driver.findElement(By.xpath("//a[@data-id='" + id + "']/..")).click();
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        webDriverWait.until(ExpectedConditions.not(ExpectedConditions.attributeContains(driver.findElement(By.cssSelector("aside")), "class", "preloader_type_element")));
 
     }
 }

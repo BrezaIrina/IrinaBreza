@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
@@ -16,12 +17,14 @@ public class Task3 {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://the-internet.herokuapp.com/geolocation");
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 5);
 
+        driver.get("https://the-internet.herokuapp.com/geolocation");
 
         WebElement geolocationButton = driver.findElement(By.xpath("//button[@onclick='getLocation()']"));
         geolocationButton.click();
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id='lat-value']")));
 
         WebElement latitudeResult = driver.findElement(By.xpath("//div[@id='lat-value']"));
         String latitudeValue = latitudeResult.getText();

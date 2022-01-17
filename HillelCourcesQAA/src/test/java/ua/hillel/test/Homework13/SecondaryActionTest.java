@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -34,11 +36,8 @@ public class SecondaryActionTest {
         WebElement secondaryAction = driver.findElement(By.xpath("//a[@onclick='handleSecondaryAction()']"));
         actions.moveToElement(secondaryAction).click().perform();
 
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 3);
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='jumbotron secondary-clicked']/h1")));
 
         WebElement clickResult = driver.findElement(By.xpath("//div[@class='jumbotron secondary-clicked']/h1"));
         Assert.assertTrue(clickResult.getText().contains("Secondary Page"), "Something went wrong");
