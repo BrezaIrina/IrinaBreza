@@ -1,3 +1,4 @@
+/*
 package ua.hillel.test.actions;
 
 import org.openqa.selenium.By;
@@ -16,6 +17,7 @@ public class ImplicitWaitTest {
 
         WebDriverWait webDriverWait = new WebDriverWait(driver, 10);
 
-
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("id")));
     }
 }
+*/

@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework13/DragAndDropTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework13/HoverUserNameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework13/SecondaryActionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/actions/ImplicitWaitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/actions/RozetkaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/actions/SelectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HillelCourcesQAA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HillelCourcesQAA.iml" afterDir="false" />
-    </list>
+    <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +112,7 @@
       <recent name="$PROJECT_DIR$/src/com/irinabreza/hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoverUserNameTest.getUserNameTest">
+  <component name="RunManager" selected="TestNG.SecondaryActionTest">
     <configuration name="HillelCourcesQAA (1)" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -151,63 +141,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="DragAndDropTest.dragDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelCourcesQAA" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.test.Homework13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.Homework13" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.Homework13.DragAndDropTest" />
-      <option name="METHOD_NAME" value="dragDropTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoverUserNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelCourcesQAA" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.test.Homework13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.Homework13" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.Homework13.HoverUserNameTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HoverUserNameTest.getUserNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelCourcesQAA" />
       <shortenClasspath name="NONE" />
@@ -224,6 +157,34 @@
       <option name="METHOD_NAME" value="getUserNameTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RozetkaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.actions" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.actions.RozetkaTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -265,20 +226,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondaryActionTest.hoverMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelCourcesQAA" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.test.Homework13.*" />
+          <option name="PATTERN" value="ua.hillel.test.Homework12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.Homework13" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.Homework13.SecondaryActionTest" />
-      <option name="METHOD_NAME" value="hoverMenuTest" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.Homework12" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.Homework12.Task3" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3.geolocationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.Homework12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.Homework12" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.Homework12.Task3" />
+      <option name="METHOD_NAME" value="geolocationTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
@@ -317,19 +306,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.HillelCourcesQAA (1)" />
-      <item itemvalue="TestNG.DragAndDropTest.dragDropTest" />
-      <item itemvalue="TestNG.SecondaryActionTest" />
-      <item itemvalue="TestNG.SecondaryActionTest.hoverMenuTest" />
-      <item itemvalue="TestNG.HoverUserNameTest" />
       <item itemvalue="TestNG.HoverUserNameTest.getUserNameTest" />
+      <item itemvalue="TestNG.RozetkaTest" />
+      <item itemvalue="TestNG.Task3" />
+      <item itemvalue="TestNG.Task3.geolocationTest" />
+      <item itemvalue="TestNG.SecondaryActionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HoverUserNameTest.getUserNameTest" />
-        <item itemvalue="TestNG.HoverUserNameTest" />
-        <item itemvalue="TestNG.SecondaryActionTest.hoverMenuTest" />
         <item itemvalue="TestNG.SecondaryActionTest" />
-        <item itemvalue="TestNG.DragAndDropTest.dragDropTest" />
+        <item itemvalue="TestNG.Task3.geolocationTest" />
+        <item itemvalue="TestNG.Task3" />
+        <item itemvalue="TestNG.RozetkaTest" />
+        <item itemvalue="TestNG.HoverUserNameTest.getUserNameTest" />
       </list>
     </recent_temporary>
   </component>
