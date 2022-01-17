@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/SecurePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/wdTest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/wdTest/LoginTestPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework12/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework12/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework13/SecondaryActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/Homework13/SecondaryActionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/actions/ImplicitWaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/actions/ImplicitWaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/actions/RozetkaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/actions/RozetkaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/Homework13/HoverUserNameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/Homework13/HoverUserNameTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/actions/ImplicitWaitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/actions/RozetkaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/actions/RozetkaTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
