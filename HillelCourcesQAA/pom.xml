@@ -44,6 +44,11 @@
 <!--            <version>1.7.21</version>-->
 <!--        </dependency>-->
 
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>5.24.2</version>
+        </dependency>
     </dependencies>
 
 
