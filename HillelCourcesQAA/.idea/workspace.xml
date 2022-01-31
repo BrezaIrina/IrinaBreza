@@ -5,45 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_5_24_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/files/DownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/files/FileClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/BasePageHW15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/ChallengingDOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/GeolocationHW15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/HoversHW15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/LoginPageHW15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/SecurePageHW15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/rozetkaPage/CategoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/rozetkaPage/HeaderComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/rozetkaPage/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/rozetkaPage/ProductCardComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/rozetkaPage/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/rozetkaPage/util/ComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/rozetkaPage/util/DriverSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/selenidePages/DynamicControlPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/filesTest/FilesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/ChallengingDOMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/GeolocationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/HoversTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/InvalidLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/SuccessLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/selenideTest/DynamicControlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/selenideTest/SelenideTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/wdTest/rozetkaRest/RozetkaCompTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/FileDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/FileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/rest/RestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/rest/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/DownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/UploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/rest/RestGsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/rest/RestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/rest/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HillelCourcesQAA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HillelCourcesQAA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/pageObjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/pageObjects/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/filesTest/FilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/filesTest/FilesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/filesTest/FilesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/filesTest/FilesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/homework15/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/homework15/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +132,7 @@
       <recent name="$PROJECT_DIR$/src/com/irinabreza/hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ChallengingDOMTest.fourthColumnTextTest">
+  <component name="RunManager" selected="TestNG.DownloadTest">
     <configuration name="HillelCourcesQAA (1)" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -200,6 +177,34 @@
       <option name="METHOD_NAME" value="fourthColumnTextTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.homework15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.homework15" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework15.DownloadTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -297,34 +302,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuccessLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelCourcesQAA" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.test.homework15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.homework15" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework15.SuccessLoginTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -348,19 +325,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.HillelCourcesQAA (1)" />
-      <item itemvalue="TestNG.SuccessLoginTest" />
       <item itemvalue="TestNG.InvalidLoginTest" />
       <item itemvalue="TestNG.GeolocationTest" />
       <item itemvalue="TestNG.HoversTest" />
       <item itemvalue="TestNG.ChallengingDOMTest.fourthColumnTextTest" />
+      <item itemvalue="TestNG.DownloadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DownloadTest" />
         <item itemvalue="TestNG.ChallengingDOMTest.fourthColumnTextTest" />
         <item itemvalue="TestNG.HoversTest" />
         <item itemvalue="TestNG.GeolocationTest" />
         <item itemvalue="TestNG.InvalidLoginTest" />
-        <item itemvalue="TestNG.SuccessLoginTest" />
       </list>
     </recent_temporary>
   </component>

@@ -10,7 +10,7 @@ public class MainPageHW15 extends BasePageHW15 {
         super(driver);
     }
 
-    public LoginPageHW15 goToLoginPage()  {
+    public LoginPageHW15 goToLoginPage() {
         driver.findElement(By.linkText("Form Authentication")).click();
         return new LoginPageHW15(driver);
     }
@@ -28,5 +28,15 @@ public class MainPageHW15 extends BasePageHW15 {
     public ChallengingDOM goToChallengingDOM() {
         driver.findElement(By.linkText("Challenging DOM")).click();
         return new ChallengingDOM(driver);
+    }
+
+    public FileDownload goToFileDownload() {
+        driver.findElement(By.linkText("File Download")).click();
+        return new FileDownload(driver);
+    }
+
+    public FileUpload goToFileUpload() {
+        driver.findElement(By.linkText("File Upload")).click();
+        return new FileUpload(driver);
     }
 }

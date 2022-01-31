@@ -11,7 +11,6 @@ public class FilesTest extends BaseTest {
     public void fileTest() {
 //        openApp();
 //        driver.findElement(By.linkText("File Upload")).click();
-//
 //        driver.findElement(By.cssSelector("input[type='file']")).sendKeys(new File("test.txt")).getAbsolutePath();
 //        driver.findElement(By.id("file-submit")).click();
 
