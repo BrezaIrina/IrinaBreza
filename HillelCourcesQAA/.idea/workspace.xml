@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/FileDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/rest/RestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/rest/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/DownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/UploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/rest/RestGsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/rest/RestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/rest/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/homework17/DownloadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/homework17/DynamicLoadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/homework17/UploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework17/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework17/DownloadSelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework17/DynamicControlTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/filesTest/FilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/filesTest/FilesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/irinabreza/hillel/pageObjects/homework15/MainPageHW15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/filesTest/FilesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/filesTest/FilesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/homework15/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/homework15/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/ChallengingDOMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/ChallengingDOMTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/download/some-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/download/some-file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/homework15/ChallengingDOMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/homework15/ChallengingDOMTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +40,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="216DmeSLmkR5BGMDcUvdcmpWv13" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -132,7 +123,7 @@
       <recent name="$PROJECT_DIR$/src/com/irinabreza/hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DownloadTest">
+  <component name="RunManager" selected="TestNG.DynamicControlTest.dynamicLoadingTest">
     <configuration name="HillelCourcesQAA (1)" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -190,6 +181,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DownloadSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.homework17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.homework17" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework17.DownloadSelenideTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DownloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelCourcesQAA" />
       <shortenClasspath name="NONE" />
@@ -218,19 +237,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeolocationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicControlTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelCourcesQAA" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.test.homework15.*" />
+          <option name="PATTERN" value="ua.hillel.test.homework17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.homework15" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework15.GeolocationTest" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.homework17" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework17.DynamicControlTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
@@ -246,49 +265,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoversTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicControlTest.dynamicLoadingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelCourcesQAA" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.test.homework15.*" />
+          <option name="PATTERN" value="ua.hillel.test.homework17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.homework15" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework15.HoversTest" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.homework17" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework17.DynamicControlTest" />
+      <option name="METHOD_NAME" value="dynamicLoadingTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvalidLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelCourcesQAA" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.test.homework15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.homework15" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework15.InvalidLoginTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -325,19 +317,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.HillelCourcesQAA (1)" />
-      <item itemvalue="TestNG.InvalidLoginTest" />
-      <item itemvalue="TestNG.GeolocationTest" />
-      <item itemvalue="TestNG.HoversTest" />
       <item itemvalue="TestNG.ChallengingDOMTest.fourthColumnTextTest" />
       <item itemvalue="TestNG.DownloadTest" />
+      <item itemvalue="TestNG.DownloadSelenideTest" />
+      <item itemvalue="TestNG.DynamicControlTest" />
+      <item itemvalue="TestNG.DynamicControlTest.dynamicLoadingTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicControlTest.dynamicLoadingTest" />
+        <item itemvalue="TestNG.DynamicControlTest" />
+        <item itemvalue="TestNG.DownloadSelenideTest" />
         <item itemvalue="TestNG.DownloadTest" />
         <item itemvalue="TestNG.ChallengingDOMTest.fourthColumnTextTest" />
-        <item itemvalue="TestNG.HoversTest" />
-        <item itemvalue="TestNG.GeolocationTest" />
-        <item itemvalue="TestNG.InvalidLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +364,22 @@
           <line>28</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/homework17/DynamicLoadPage.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ua/hillel/test/homework17/DynamicControlTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.codeborne.selenide.impl.Alias$NoneAlias" memberName="text" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
