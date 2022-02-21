@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7bb757-90ae-48c7-903b-ea0c8d3c928a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/homework17/DownloadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/homework17/DynamicLoadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irinabreza/hillel/homework17/UploadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework17/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework17/DownloadSelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework17/DynamicControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20211205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0_pr2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0_pr2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0_pr2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/ChallengingDOMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/homework15/ChallengingDOMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/download/some-file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/download/some-file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/homework15/ChallengingDOMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/hillel/test/homework15/ChallengingDOMTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/test/wdTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/test/wdTest/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="216DmeSLmkR5BGMDcUvdcmpWv13" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -108,11 +116,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -123,7 +131,7 @@
       <recent name="$PROJECT_DIR$/src/com/irinabreza/hillel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DynamicControlTest.dynamicLoadingTest">
+  <component name="RunManager" selected="TestNG.InventoryTest">
     <configuration name="HillelCourcesQAA (1)" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -152,35 +160,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="ChallengingDOMTest.fourthColumnTextTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelCourcesQAA" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.test.homework15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.homework15" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework15.ChallengingDOMTest" />
-      <option name="METHOD_NAME" value="fourthColumnTextTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DownloadSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelCourcesQAA" />
       <shortenClasspath name="NONE" />
@@ -194,34 +173,6 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ua.hillel.test.homework17" />
       <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework17.DownloadSelenideTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelCourcesQAA" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.test.homework15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.test.homework15" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework15.DownloadTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
@@ -294,6 +245,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InventoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.homework18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.homework18" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework18.InventoryTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryTest.getInventoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelCourcesQAA" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.test.homework18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.test.homework18" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.test.homework18.InventoryTest" />
+      <option name="METHOD_NAME" value="getInventoryTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dparam=defaultValue" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -317,19 +325,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.HillelCourcesQAA (1)" />
-      <item itemvalue="TestNG.ChallengingDOMTest.fourthColumnTextTest" />
-      <item itemvalue="TestNG.DownloadTest" />
       <item itemvalue="TestNG.DownloadSelenideTest" />
       <item itemvalue="TestNG.DynamicControlTest" />
       <item itemvalue="TestNG.DynamicControlTest.dynamicLoadingTest" />
+      <item itemvalue="TestNG.InventoryTest.getInventoryTest" />
+      <item itemvalue="TestNG.InventoryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.InventoryTest" />
+        <item itemvalue="TestNG.InventoryTest.getInventoryTest" />
         <item itemvalue="TestNG.DynamicControlTest.dynamicLoadingTest" />
         <item itemvalue="TestNG.DynamicControlTest" />
         <item itemvalue="TestNG.DownloadSelenideTest" />
-        <item itemvalue="TestNG.DownloadTest" />
-        <item itemvalue="TestNG.ChallengingDOMTest.fourthColumnTextTest" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +362,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -381,5 +388,9 @@
         <PinnedItemInfo parentTag="com.codeborne.selenide.impl.Alias$NoneAlias" memberName="text" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
