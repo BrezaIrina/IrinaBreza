@@ -14,6 +14,8 @@
         <testNgVersion>7.4.0</testNgVersion>
         <seleniumVersion>3.141.59</seleniumVersion>
         <wdManager>5.0.3</wdManager>
+        <allureVersion>2.15.0</allureVersion>
+        <aspectj.version>1.8.10</aspectj.version>
     </properties>
 
     <dependencies>
@@ -43,7 +45,6 @@
 <!--            <artifactId>slf4j-simple</artifactId>-->
 <!--            <version>1.7.21</version>-->
 <!--        </dependency>-->
-
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
@@ -81,8 +82,24 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.10.0.pr2</version>
         </dependency>
+        <!--REPORTING-->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allureVersion}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>${allureVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
     </dependencies>
-
 
     <profiles>
         <profile>
@@ -94,12 +111,16 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>3.0.0-M5</version>
                         <configuration>
+                            <argLine>
+                                -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                            </argLine>
                             <suiteXmlFiles>
                                 <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <systemPropertyVariables>
                                 <siteUrl>http://dev.site</siteUrl>
                                 <browser>${browser}</browser>
+                                <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
@@ -115,9 +136,6 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>3.0.0-M5</version>
                         <configuration>
-                            <!--                    <suiteXmlFiles>-->
-                            <!--                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>-->
-                            <!--                    </suiteXmlFiles>-->
                             <systemPropertyVariables>
                                 <siteUrl>http://stage.site</siteUrl>
                             </systemPropertyVariables>
@@ -127,5 +145,4 @@
             </build>
         </profile>
     </profiles>
-
 </project>
