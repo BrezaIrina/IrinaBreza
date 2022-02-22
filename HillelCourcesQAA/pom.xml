@@ -118,9 +118,10 @@
                                 <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <systemPropertyVariables>
+                                <allure.results.directory>target/allure-results</allure.results.directory>
                                 <siteUrl>http://dev.site</siteUrl>
                                 <browser>${browser}</browser>
-                                <allure.results.directory>target/allure-results</allure.results.directory>
+<!--                                <allure.results.directory>target/allure-results</allure.results.directory>-->
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
@@ -138,6 +139,7 @@
                         <configuration>
                             <systemPropertyVariables>
                                 <siteUrl>http://stage.site</siteUrl>
+                                <allure.results.directory>target/allure-results</allure.results.directory>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
