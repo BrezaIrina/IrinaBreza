@@ -16,6 +16,7 @@
         <wdManager>5.0.3</wdManager>
         <allureVersion>2.15.0</allureVersion>
         <aspectj.version>1.8.10</aspectj.version>
+        <allure.results.directory>target/allure-results</allure.results.directory>
     </properties>
 
     <dependencies>
@@ -127,7 +128,6 @@
                                 <allure.results.directory>target/allure-results</allure.results.directory>
                                 <siteUrl>http://dev.site</siteUrl>
                                 <browser>${browser}</browser>
-<!--                                <allure.results.directory>target/allure-results</allure.results.directory>-->
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
