@@ -82,6 +82,7 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.10.0.pr2</version>
         </dependency>
+
         <!--REPORTING-->
         <dependency>
             <groupId>io.qameta.allure</groupId>
@@ -94,22 +95,8 @@
             <artifactId>allure-java-commons</artifactId>
             <version>${allureVersion}</version>
         </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>${aspectj.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M5</version>
-            <type>maven-plugin</type>
-        </dependency>
     </dependencies>
-    <profiles>
-        <profile>
-            <id>dev</id>
-            <build>
+<build>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -123,32 +110,28 @@
                                 <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <systemPropertyVariables>
-                                <allure.results.directory>../target/allure-results</allure.results.directory>
                                 <siteUrl>http://dev.site</siteUrl>
                                 <browser>${browser}</browser>
+                                <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+<!--                                HillelCourcesQAA/target/allure-results-->
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
-                </plugins>
-            </build>
-        </profile>
-        <profile>
-            <id>stage</id>
-            <build>
-                <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.0.0-M5</version>
+                        <artifactId>maven-compiler-plugin</artifactId>
                         <configuration>
-                            <systemPropertyVariables>
-                                <siteUrl>http://stage.site</siteUrl>
-                                <allure.results.directory>../target/allure-results</allure.results.directory>
-                            </systemPropertyVariables>
+                        <source>9</source>
+                        <target>9</target>
                         </configuration>
+                    <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
                     </plugin>
                 </plugins>
             </build>
-        </profile>
-    </profiles>
-</project>
+        </project>
