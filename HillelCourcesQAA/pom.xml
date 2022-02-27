@@ -18,7 +18,6 @@
         <aspectj.version>1.8.10</aspectj.version>
         <allure.results.directory>target/allure-results</allure.results.directory>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.github.javafaker</groupId>
@@ -107,7 +106,6 @@
             <type>maven-plugin</type>
         </dependency>
     </dependencies>
-
     <profiles>
         <profile>
             <id>dev</id>
@@ -125,7 +123,7 @@
                                 <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <systemPropertyVariables>
-                                <allure.results.directory>target/allure-results</allure.results.directory>
+                                <allure.results.directory>../target/allure-results</allure.results.directory>
                                 <siteUrl>http://dev.site</siteUrl>
                                 <browser>${browser}</browser>
                             </systemPropertyVariables>
@@ -145,7 +143,7 @@
                         <configuration>
                             <systemPropertyVariables>
                                 <siteUrl>http://stage.site</siteUrl>
-                                <allure.results.directory>target/allure-results</allure.results.directory>
+                                <allure.results.directory>../target/allure-results</allure.results.directory>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
