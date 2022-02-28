@@ -112,8 +112,9 @@
                             <systemPropertyVariables>
                                 <siteUrl>http://dev.site</siteUrl>
                                 <browser>${browser}</browser>
-                                <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
-<!--                                HillelCourcesQAA/target/allure-results-->
+                                <allure.results.directory>HillelCourcesQAA/target/allure-results</allure.results.directory>
+<!--                                -->
+<!--                                ${project.build.directory}/allure-result-->
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
