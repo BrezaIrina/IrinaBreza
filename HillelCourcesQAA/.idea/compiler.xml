@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HillelCourcesQAA" target="9" />
+      <module name="HillelCourcesQAA" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

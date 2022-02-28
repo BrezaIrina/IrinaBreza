@@ -114,7 +114,8 @@
                                 <browser>${browser}</browser>
                                 <allure.results.directory>HillelCourcesQAA/target/allure-results</allure.results.directory>
 <!--                                -->
-<!--                                ${project.build.directory}/allure-result-->
+<!--                                ${project.build.directory}/allure-result   -->
+<!--                                /Users/irinabreza/Documents/IrinaBreza/HillelCourcesQAA/target-->
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
@@ -122,8 +123,8 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
                         <configuration>
-                        <source>9</source>
-                        <target>9</target>
+                        <source>11</source>
+                        <target>11</target>
                         </configuration>
                     <dependencies>
                     <dependency>
